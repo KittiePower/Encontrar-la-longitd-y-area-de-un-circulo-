@@ -1,0 +1,22 @@
+/******************************************************************************
+Encontrar la longitd y area de un circulo 
+Autor: Elisa Michelle MV.
+Fecha: 170322
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Declaracion de variables 
+    float radio, longitud, area;
+    float PI=3.1416;
+    
+    //Entrada de datos por teclado y procedimientos 
+    cout<<" Escribe el valor del radio " ;
+    cin>>radio;
+    longitud=2*PI*radio;
+    cout<< "La longitud del circulo es " <<longitud<<endl;
+    area=PI*radio*radio;
+    cout<< "El area del circulo es "<<area;
+    return 0;
+}
